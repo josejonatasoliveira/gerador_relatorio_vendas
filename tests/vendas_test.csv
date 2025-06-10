@@ -1,0 +1,11 @@
+produto,valor,data
+Produto A,100.50,2025-01-15
+Produto B,75.20,2025-01-16
+Produto A,50,2025-01-17
+Produto C,200,00,2025-02-10
+Produto B,25.8,2025-02-15
+Produto D,,2025-03-01
+Produto E,150,2025-03-05
+Produto F,-10,2025-03-10
+Produto G,300,invalida
+Produto H,10,2025-04-01
