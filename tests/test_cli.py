@@ -136,9 +136,9 @@ def test_cli_empty_csv(empty_csv_cli, capsys):
     assert "Nenhuma venda encontrada para processar" in captured.err
     assert captured.out == ""
 
-def test_cli_csv_with_proccess_error(csv_com_erro_cli, capsys):
+def test_cli_csv_with_proccess_error(csv_with_error_cli, capsys):
     # GIVEN
-    argv = [csv_com_erro_cli]
+    argv = [csv_with_error_cli]
 
     # WHEN
     exit_code = main(argv)

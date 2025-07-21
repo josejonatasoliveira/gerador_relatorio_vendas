@@ -32,7 +32,7 @@ EMPTY_METRICS: SaleMetrics = {
 }
 
 @pytest.mark.parametrize(
-    "data_inicio, data_fim, esperado_indices",
+    "start_date, end_date, expected_indexes",
     [
         (date(2025, 1, 15), date(2025, 1, 20), [1, 2]),
         (date(2025, 1, 15), None, [1, 2, 4]),
